@@ -1,0 +1,173 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "ASUS",
+            "year": 2014
+        },
+        {
+            "id": 3,
+            "model": "Lenovo",
+            "year": 2015
+        },
+        {
+            "id": 4,
+            "model": "ASUS",
+            "year": 2015
+        },
+        {
+            "id": 5,
+            "model": "Dell",
+            "year": 2016
+        },
+        {
+            "id": 6,
+            "model": "Macbook Pro",
+            "year": 2017
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 45,
+            "computerId": 1,
+            "departmentId": 4,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Onterio",
+            "lastName": "Wright",
+            "age": 27,
+            "computerId": 2,
+            "departmentId": 5,
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "firstName": "Jansen",
+            "lastName": "Van Der Spuy",
+            "age": 25,
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Tyler",
+            "lastName": "Davis",
+            "age": 24,
+            "computerId": 4,
+            "departmentId": 4,
+            "locationId": 3
+        },
+        {
+            "id": 5,
+            "firstName": "Wesley",
+            "lastName": "Waters",
+            "age": 29,
+            "computerId": 5,
+            "departmentId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 6,
+            "firstName": "Case",
+            "lastName": "Scally",
+            "age": 22,
+            "computerId": 6,
+            "departmentId": 5,
+            "locationId": 3
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Sales"
+        },
+        {
+            "id": 2,
+            "name": "Quality Assurance"
+        },
+        {
+            "id": 3,
+            "name": "Customer Service"
+        },
+        {
+            "id": 4,
+            "name": "Production"
+        },
+        {
+            "id": 5,
+            "name": "Accounting"
+        }
+    ],
+    "locations":[
+        {
+            "id": 1,
+            "name": "Memphis"
+        },
+        {
+            "id": 2,
+            "name": "Nashville"
+        },
+        {
+            "id": 3,
+            "name": "Atlanta"
+        }
+    ],
+    "customers":[
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "TOP Distribution"
+        },
+        {
+            "id": 4,
+            "name": "CB Inc"
+        }
+
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "employeeId": 2,
+            "customerId": 1
+        }, 
+        {
+            "id": 2,
+            "employeeId": 2,
+            "customerId": 1
+        },
+        {
+            "id": 3,
+            "employeeId": 2,
+            "customerId": 2
+        },
+        {
+            "id": 4,
+            "employeeId": 2,
+            "customerId": 3        
+        },
+        {
+            "id": 5,
+            "employeeId": 3,
+            "customerId": 4
+        },
+        {
+            "id": 6,
+            "employeeId": 3,
+            "customerId": 6
+        }               
+    ]
+}
